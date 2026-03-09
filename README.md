@@ -28,4 +28,4 @@ Nathan Corrêa
 ## Aviso legal
 © 2026 Nathan Corrêa. Todos os direitos reservados.
 
-Este repositório não concede permissão de uso, cópia, modificação ou redistribuição sem autorização prévia por escrito.
+Este repositório não concede permissão de modificação ou redistribuição sem autorização prévia por escrito.
