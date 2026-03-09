@@ -11,8 +11,8 @@ Essa ferramenta lê os atributos do Astrolábio diretamente da tela do jogo e fa
 ## Vídeo demonstrativo
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=71bsWJmSPvg">
-    <img src="https://img.youtube.com/vi/71bsWJmSPvg/maxresdefault.jpg" width="700">
+  <a href="https://www.youtube.com/watch?v=MCvxI0Yjo4s">
+    <img src="https://img.youtube.com/vi/MCvxI0Yjo4s/maxresdefault.jpg" width="700">
   </a>
 </p>
 
