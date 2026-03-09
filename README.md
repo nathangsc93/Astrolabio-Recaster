@@ -1,4 +1,10 @@
-﻿# Astrolabio Recaster
+## Download
+
+Você pode baixar o executável mais recente na seção **Releases**.
+
+https://github.com/nathangsc93/Astrolabio-Recaster/releases
+ 
+ # Astrolabio Recaster
 
 Ferramenta desktop em C# / WinForms para leitura automática dos atributos do sistema de Astrolábio no Perfect World, com OCR, comparação de atributos desejados e automação de roletagem.
 
