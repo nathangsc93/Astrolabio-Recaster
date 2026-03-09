@@ -124,7 +124,7 @@ Astrolabio Recaster
 
 # Autor
 
-Nathan Corrêa
+Nathan Corrêa  
 nathangsc.dev@gmail.com
 
 GitHub  
