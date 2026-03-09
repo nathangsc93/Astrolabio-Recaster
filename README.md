@@ -66,8 +66,6 @@ Baixe a versão compilada mais recente na seção Releases:
 
 https://github.com/nathangsc93/Astrolabio-Recaster/releases
 
-Baixe o arquivo .zip, extraia e execute;
-
 ---
 
 # Instalação
