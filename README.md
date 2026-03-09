@@ -95,18 +95,31 @@ Nenhuma instalação necessária.
 
 Astrolabio Recaster
 │
+
 ├── Serviços
+
 │ ├── ScreenCaptureService
+
 │ ├── OcrService
+
 │ ├── StatParser
+
 │ ├── StatMatchService
+
 │ └── ImagePreprocessService
+
 │
+
 ├── tessdata
+
 │ └── eng.traineddata
+
 │
+
 ├── Astrolabio Recaster.cs
+
 ├── Program.cs
+
 └── Astrolabio Recaster.csproj
 
 ---
