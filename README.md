@@ -57,3 +57,64 @@ Baixe a versão compilada mais recente na seção Releases:
 https://github.com/nathangsc93/Astrolabio-Recaster/releases
 
 Baixe o arquivo .zip, extraia e execute;
+
+---
+
+# Instalação
+
+1. Baixe a versão mais recente
+2. Extraia o arquivo `.zip`
+3. Execute
+
+Nenhuma instalação necessária.
+
+---
+
+# Uso
+
+1. Abra a janela do Astrolábio no Perfect World
+2. Posicione a ferramenta sobre a área de atributos
+3. Clique em **Calibrar Mouse**
+4. Configure os atributos desejados
+5. Clique em **Iniciar**
+6. A ferramenta irá roletar até os atributos desejados aparecerem ou acabarem os recursos
+
+---
+
+# Estrutura do Projeto
+
+Astrolabio Recaster
+│
+├── Serviços
+│ ├── ScreenCaptureService
+│ ├── OcrService
+│ ├── StatParser
+│ ├── StatMatchService
+│ └── ImagePreprocessService
+│
+├── tessdata
+│ └── eng.traineddata
+│
+├── Astrolabio Recaster.cs
+├── Program.cs
+└── Astrolabio Recaster.csproj
+
+---
+
+# Autor
+
+Nathan Corrêa
+nathangsc.dev@gmail.com
+
+GitHub  
+https://github.com/nathangsc93
+
+---
+
+# Licença
+
+Copyright (c) 2026 Nathan Corrêa
+
+Todos os direitos reservados.
+
+Este software não pode ser distribuído ou utilizado sem permissão explícita do autor.
