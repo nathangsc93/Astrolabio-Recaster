@@ -8,7 +8,17 @@ Essa ferramenta lê os atributos do Astrolábio diretamente da tela do jogo e fa
 
 ---
 
-# Screenshot
+## Vídeo demonstrativo
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=71bsWJmSPvg">
+    <img src="https://img.youtube.com/vi/71bsWJmSPvg/maxresdefault.jpg" width="700">
+  </a>
+</p>
+
+---
+
+# Captura de Tela
 
 ![Astrolabio Recaster Screenshot](screenshot.png)
 
