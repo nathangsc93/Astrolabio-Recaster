@@ -1,0 +1,9 @@
+﻿Copyright (c) 2026 Nathan Corrêa
+
+All rights reserved.
+
+This source code, binaries, assets, and related files are the intellectual property of Nathan Guilherme.
+
+No permission is granted to use, copy, modify, merge, publish, distribute, sublicense, or sell this software, in whole or in part, without prior written permission from the copyright holder.
+
+This software is provided "as is", without warranty of any kind, express or implied.

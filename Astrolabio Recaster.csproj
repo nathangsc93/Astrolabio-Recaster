@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<RootNamespace>Astrolabio_Recaster</RootNamespace>
+		<Nullable>enable</Nullable>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ImplicitUsings>enable</ImplicitUsings>
+
+		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+		<PlatformTarget>x64</PlatformTarget>
+		<SelfContained>true</SelfContained>
+		<PublishSingleFile>false</PublishSingleFile>
+
+		<ApplicationIcon>AstrolabioRecaster.ico</ApplicationIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Update="README.txt">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<CopyToPublishDirectory>Always</CopyToPublishDirectory>
+		</None>
+
+		<None Update="tessdata\**\*">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<CopyToPublishDirectory>Always</CopyToPublishDirectory>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<NativeX64 Include="x64\*.dll" />
+		<NativeX86 Include="x86\*.dll" />
+	</ItemGroup>
+	
+	<ItemGroup>
+	  <Content Include="AstrolabioRecaster.ico">
+		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	</ItemGroup>
+
+	<Target Name="CopyNativeDllsToOutput" AfterTargets="Build">
+		<Copy SourceFiles="@(NativeX64)" DestinationFolder="$(OutDir)x64" SkipUnchangedFiles="true" />
+		<Copy SourceFiles="@(NativeX86)" DestinationFolder="$(OutDir)x86" SkipUnchangedFiles="true" />
+	</Target>
+
+	<Target Name="CopyNativeDllsToPublish" AfterTargets="Publish">
+		<Copy SourceFiles="@(NativeX64)" DestinationFolder="$(PublishDir)x64" SkipUnchangedFiles="true" />
+		<Copy SourceFiles="@(NativeX86)" DestinationFolder="$(PublishDir)x86" SkipUnchangedFiles="true" />
+	</Target>
+
+	<ItemGroup>
+	  <Content Include="AstrolabioRecaster.ico" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="System.Drawing.Common" Version="10.0.3" />
+		<PackageReference Include="Tesseract" Version="5.2.0" />
+		<PackageReference Include="Tesseract.Drawing" Version="5.2.0" />
+	</ItemGroup>
+
+</Project>
