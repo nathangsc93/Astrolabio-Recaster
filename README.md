@@ -89,39 +89,6 @@ Nenhuma instalação necessária.
 
 ---
 
-# Estrutura do Projeto
-
-Astrolabio Recaster
-│
-
-├── Serviços
-
-│ ├── ScreenCaptureService
-
-│ ├── OcrService
-
-│ ├── StatParser
-
-│ ├── StatMatchService
-
-│ └── ImagePreprocessService
-
-│
-
-├── tessdata
-
-│ └── eng.traineddata
-
-│
-
-├── Astrolabio Recaster.cs
-
-├── Program.cs
-
-└── Astrolabio Recaster.csproj
-
----
-
 # Autor
 
 Nathan Corrêa  
